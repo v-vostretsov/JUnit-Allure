@@ -1,0 +1,21 @@
+# Created on 2018-07-31T20:42:39.734
+[AppClassLoader@7591083d] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+
+# Created on 2018-07-31T20:42:39.746
+[AppClassLoader@7591083d] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+
+# Created on 2018-07-31T20:43:13.577
+WARNING: An illegal reflective access operation has occurred
+
+# Created on 2018-07-31T20:43:13.592
+WARNING: Illegal reflective access by org.openqa.selenium.os.ProcessUtils (file:/C:/Users/olegn/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.53.0/selenium-remote-driver-2.53.0.jar) to field java.lang.ProcessImpl.handle
+
+# Created on 2018-07-31T20:43:13.636
+WARNING: Please consider reporting this to the maintainers of org.openqa.selenium.os.ProcessUtils
+
+# Created on 2018-07-31T20:43:13.660
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created on 2018-07-31T20:43:13.671
+WARNING: All illegal access operations will be denied in a future release
+

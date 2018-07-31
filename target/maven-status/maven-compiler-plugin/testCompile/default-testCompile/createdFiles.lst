@@ -1,0 +1,5 @@
+steps\FirstTest.class
+steps\ScreenShotRule.class
+pages\LoginPage.class
+testData\GlobalVars.class
+steps\JUnitExecutionListener.class

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="steps.FirstTest" time="34.651" tests="11" errors="5" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="maven.conf" value="C:\Program Files\Apache\maven\bin\../conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\Apache\maven\bin\.."/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\olegn"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-03-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="10+46"/>
+    <property name="user.name" value="olegn"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\olegn\AppData\Local\Temp\"/>
+    <property name="java.version" value="10"/>
+    <property name="user.dir" value="C:\Users\olegn\IdeaProjects\JUnit"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\olegn\IdeaProjects\JUnit"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\python 3\Scripts\;C:\python 3\;C:\Users\olegn\AppData\Local\Microsoft\WindowsApps;C:\Users\olegn\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\olegn\AppData\Roaming\npm;C:\Program Files\Java\jdk-10\bin;C:\Users\olegn\AppData\Local\Microsoft\WindowsApps;C:\allure-2.7.0\bin;C:\Users\olegn\IdeaProjects\JUnit;C:\Program Files\Apache\maven\bin;C:\Program Files\Java\jre-10.0.1;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10+46"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apache\maven\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="54.0"/>
+  </properties>
+  <testcase name="requestLoginCheckMessageInvalidUsername" classname="steps.FirstTest" time="16.603">
+    <error message="Read timed out" type="java.net.SocketTimeoutException">java.net.SocketTimeoutException: Read timed out
+	at steps.FirstTest.requestLoginCheckMessageInvalidUsername(FirstTest.java:87)
+</error>
+    <system-out><![CDATA[zazazazazazaza
+]]></system-out>
+    <system-err><![CDATA[[DelegatingClassLoader@c05fddc] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@c05fddc] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@1a69561c] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[DelegatingClassLoader@1a69561c] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 40697
+Only local connections are allowed.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="requestLoginCheckMessageInvalidUsername" classname="steps.FirstTest" time="16.604">
+    <error message="javax/xml/bind/annotation/XmlElement" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlElement
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlElement
+</error>
+  </testcase>
+  <testcase name="userLoginInvalidUsername" classname="steps.FirstTest" time="2.946">
+    <failure message="expected:&lt;AC[C]ESS DENIED!&gt; but was:&lt;AC[]ESS DENIED!&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<AC[C]ESS DENIED!> but was:<AC[]ESS DENIED!>
+	at steps.FirstTest.userLoginInvalidUsername(FirstTest.java:55)
+]]></failure>
+    <system-out><![CDATA[zazazazazazaza
+]]></system-out>
+  </testcase>
+  <testcase name="userLoginInvalidUsername" classname="steps.FirstTest" time="2.947">
+    <error message="javax/xml/bind/annotation/XmlElement" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlElement
+</error>
+  </testcase>
+  <testcase name="requestLoginCheckMessageInvalidPassword" classname="steps.FirstTest" time="1.001">
+    <failure message="expected:&lt;AC[C]ESS DENIED!&gt; but was:&lt;AC[]ESS DENIED!&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<AC[C]ESS DENIED!> but was:<AC[]ESS DENIED!>
+	at steps.FirstTest.requestLoginCheckMessageInvalidPassword(FirstTest.java:96)
+]]></failure>
+    <system-out><![CDATA[zazazazazazaza
+]]></system-out>
+  </testcase>
+  <testcase name="requestLoginCheckMessageInvalidPassword" classname="steps.FirstTest" time="1.001">
+    <error message="javax/xml/bind/annotation/XmlElement" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlElement
+</error>
+  </testcase>
+  <testcase name="userLoginInvalidPassword" classname="steps.FirstTest" time="1.285">
+    <failure message="expected:&lt;AC[C]ESS DENIED!&gt; but was:&lt;AC[]ESS DENIED!&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<AC[C]ESS DENIED!> but was:<AC[]ESS DENIED!>
+	at steps.FirstTest.userLoginInvalidPassword(FirstTest.java:66)
+]]></failure>
+    <system-out><![CDATA[zazazazazazaza
+]]></system-out>
+  </testcase>
+  <testcase name="userLoginInvalidPassword" classname="steps.FirstTest" time="1.286">
+    <error message="javax/xml/bind/annotation/XmlElement" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlElement
+</error>
+  </testcase>
+  <testcase name="userLoginWithoutCookie" classname="steps.FirstTest" time="1.614"/>
+  <testcase name="userLoginValidCredentials" classname="steps.FirstTest" time="1.79"/>
+  <testcase name="requestLoginCheckMessageValidCredentials" classname="steps.FirstTest" time="1.394"/>
+</testsuite>

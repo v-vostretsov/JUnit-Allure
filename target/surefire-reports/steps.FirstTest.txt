@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: steps.FirstTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 5, Skipped: 0, Time elapsed: 34.651 s <<< FAILURE! - in steps.FirstTest
+requestLoginCheckMessageInvalidUsername(steps.FirstTest)  Time elapsed: 16.603 s  <<< ERROR!
+java.net.SocketTimeoutException: Read timed out
+	at steps.FirstTest.requestLoginCheckMessageInvalidUsername(FirstTest.java:87)
+
+requestLoginCheckMessageInvalidUsername(steps.FirstTest)  Time elapsed: 16.604 s  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlElement
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlElement
+
+userLoginInvalidUsername(steps.FirstTest)  Time elapsed: 2.946 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<AC[C]ESS DENIED!> but was:<AC[]ESS DENIED!>
+	at steps.FirstTest.userLoginInvalidUsername(FirstTest.java:55)
+
+userLoginInvalidUsername(steps.FirstTest)  Time elapsed: 2.947 s  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlElement
+
+requestLoginCheckMessageInvalidPassword(steps.FirstTest)  Time elapsed: 1.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<AC[C]ESS DENIED!> but was:<AC[]ESS DENIED!>
+	at steps.FirstTest.requestLoginCheckMessageInvalidPassword(FirstTest.java:96)
+
+requestLoginCheckMessageInvalidPassword(steps.FirstTest)  Time elapsed: 1.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlElement
+
+userLoginInvalidPassword(steps.FirstTest)  Time elapsed: 1.285 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<AC[C]ESS DENIED!> but was:<AC[]ESS DENIED!>
+	at steps.FirstTest.userLoginInvalidPassword(FirstTest.java:66)
+
+userLoginInvalidPassword(steps.FirstTest)  Time elapsed: 1.286 s  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlElement
+
