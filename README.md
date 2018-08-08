@@ -14,3 +14,11 @@ $ allure generate
 # Overview screen
 
 ![Alt text](./readme_screenshots/Overview.png?raw=true "Title")
+
+# Success suites screen
+
+![Alt text](./readme_screenshots/Success_suites.png?raw=true "Title")
+
+# Failed scenario with the screenshot
+
+![Alt text](./readme_screenshots/Failed_scenario.png?raw=true "Title")
