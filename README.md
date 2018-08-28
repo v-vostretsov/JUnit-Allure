@@ -19,6 +19,6 @@ $ allure generate
 
 ![Alt text](./readme_screenshots/Success_suites.png?raw=true "Title")
 
-# Failed scenario with the screenshot
+# Failed scenario
 
 ![Alt text](./readme_screenshots/Failed_scenario.png?raw=true "Title")
